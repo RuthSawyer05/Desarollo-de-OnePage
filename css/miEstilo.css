@@ -1,0 +1,89 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+
+.contenido{
+    height: 100vh;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+/*CAMBIA LAS IMAGENES RUTH*/
+
+#zona1{
+    background-image: url('../images/inicio.jpg');
+
+
+}
+#zona2{
+    background-image: url('../images/17.jpg');
+}
+
+#zona3{
+    background-image: url('../images/20.webp');
+}
+
+#zona4{
+    background-image: url('../images/23.jpg');
+}
+
+#zona5{
+    background-image: url('../images/26.webp');
+}
+
+/*MENU*/
+
+nav{
+    position: fixed;
+    left:200px;
+    top:30%;
+    z-index: 100;
+    transition: 0,4s ease;
+    transform: translateX(-50%);
+
+}
+ul{
+    list-style: none;
+
+}
+ul a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    height: 40px;
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+    padding: 10px 0;
+    transition: 0.4s ease;
+}
+
+ul a:hover{
+    background-color: purple;
+    color: black;
+}
+
+/*CAJAS DE CONTENIDO*/
+
+.caja {
+  background-color: rgb(81, 15, 117); 
+  color: whitesmoke; 
+  padding: 30px; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 600px; 
+  width: 100%;
+  text-align: center;
+}
+
+.caja h2 {
+  margin-bottom: 15px;
+  color: #2c7abf;
+}
